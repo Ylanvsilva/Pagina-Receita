@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@700&family=League+Spartan:wght@400;500;600;700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Noto+Sans:wght@400;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@300;400;500;700;900&family=Sarala:wght@400;700&family=Silkscreen&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-pg: #EAEAEA;
+    --background-rc: #FFFFFF;
+    --titulos-sub: #1B1B1B;
+    --footer-legend: #8F8F8F;
+    --text: #39393A;
+}
+
+body {
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.75rem;
+    text-align: center;
+
+    margin: 1.25rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-align: center;
+
+    /* outline: 1px solid red; */
+    margin: 1.25rem;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    list-style-position: inside;
+}
+
+p {
+    font-size: 1rem;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    text-align: right;
+
+    color: #8f8f8f;
+}
+
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+
+    margin: 1.25rem;
+}
+
+.container {
+    background: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
